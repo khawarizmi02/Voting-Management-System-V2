@@ -10,15 +10,6 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/dist/Voting_Management.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
           <root url="jar://$MODULE_DIR$/dist/lib/AbsoluteLayout-RELEASE160.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -29,6 +20,15 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/dist/lib/postgresql-42.5.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/dist/Voting_Management.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
