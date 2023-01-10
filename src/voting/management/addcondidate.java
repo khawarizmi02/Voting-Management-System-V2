@@ -243,8 +243,8 @@ jpsign.addItem("NCP");
             
             
             
-        Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/VOTING MANAGEMENT SYSTEM", 
-                    "postgres", "dbms");
+        Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/vms",
+                    "postgres", "020507jimi");
         String sql="insert into partylist1 values(?,?,?,?,?,?)";
         PreparedStatement ps=con.prepareStatement(sql);
         ps.setString(1, jpname.getText());

@@ -19,9 +19,9 @@ age varchar(100)
 
 );
 
-select * from addvoter1
+/*select * from addvoter1
 
-delete result5;
+delete result5;*/
 
 
 create table result5(
