@@ -44,7 +44,7 @@ create table partylist1(
  partyname varchar(100),
  party_leader varchar(100),
  sex varchar(10),
- age char,
+ age varchar(10),
  partyheadquater varchar(100),
  partysign varchar(30)
 );
