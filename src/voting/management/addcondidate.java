@@ -36,6 +36,7 @@ jpsign.addItem("CPI");
 jpsign.addItem("NCP");
 
 
+
 }
     
     /**
@@ -66,6 +67,7 @@ jpsign.addItem("NCP");
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -114,6 +116,12 @@ jpsign.addItem("NCP");
         });
 
         jpclear.setText("Clear");
+
+        jpclear.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clearpanel(evt);
+            }
+        });
 
         javax.swing.GroupLayout aLayout = new javax.swing.GroupLayout(a);
         a.setLayout(aLayout);
@@ -236,6 +244,39 @@ jpsign.addItem("NCP");
     private void jpleaderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jpleaderActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jpleaderActionPerformed
+
+
+
+
+
+
+
+//   my test codekj
+
+    private void clearpanel(java.awt.event.ActionEvent evt) {
+        jpsex.setText("");
+        jpname.setText("");
+        jpleader.setText("");
+        jpheadquater.setText("");
+        jpage.setText("");
+        jpsign.select(0);
+
+
+    }//GEN-LAST:event_jpaddActionPerformed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     private void jpaddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jpaddActionPerformed
         try{
