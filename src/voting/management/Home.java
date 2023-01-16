@@ -123,7 +123,7 @@ public class Home extends javax.swing.JFrame {
 
         jaddcondidate.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
         jaddcondidate.setForeground(new java.awt.Color(255, 255, 255));
-        jaddcondidate.setText("Add Condidate");
+        jaddcondidate.setText("Add Candidate");
         jaddcondidate.setBorder(null);
         jaddcondidate.setContentAreaFilled(false);
         jaddcondidate.addActionListener(new java.awt.event.ActionListener() {
@@ -134,7 +134,7 @@ public class Home extends javax.swing.JFrame {
 
         jupdatecondidate.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
         jupdatecondidate.setForeground(new java.awt.Color(255, 255, 255));
-        jupdatecondidate.setText("Update Condidate");
+        jupdatecondidate.setText("Update Candidate");
         jupdatecondidate.setBorder(null);
         jupdatecondidate.setContentAreaFilled(false);
         jupdatecondidate.addActionListener(new java.awt.event.ActionListener() {
@@ -145,7 +145,7 @@ public class Home extends javax.swing.JFrame {
 
         jdiscondidatelist.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
         jdiscondidatelist.setForeground(new java.awt.Color(255, 255, 255));
-        jdiscondidatelist.setText("Display Condidate List");
+        jdiscondidatelist.setText("Display Candidate List");
         jdiscondidatelist.setBorder(null);
         jdiscondidatelist.setContentAreaFilled(false);
         jdiscondidatelist.addActionListener(new java.awt.event.ActionListener() {
@@ -161,7 +161,7 @@ public class Home extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Niraj Ranjan");
+        jLabel1.setText("    ADMINS");
 
         jPanel3.setBackground(new java.awt.Color(0, 0, 255));
 
@@ -266,15 +266,15 @@ public class Home extends javax.swing.JFrame {
 
         jLabel3.setBackground(new java.awt.Color(255, 0, 51));
         jLabel3.setFont(new java.awt.Font("Calibri", 1, 14)); // NOI18N
-        jLabel3.setText("Niraj Ranjan");
+        jLabel3.setText("Group 16");
 
         jLabel4.setBackground(new java.awt.Color(255, 0, 51));
         jLabel4.setFont(new java.awt.Font("Calibri", 1, 14)); // NOI18N
-        jLabel4.setText("Department Of Computer Science & Engineering");
+        jLabel4.setText("School Of Computer Science");
 
         jLabel6.setBackground(new java.awt.Color(255, 0, 51));
         jLabel6.setFont(new java.awt.Font("Calibri", 1, 14)); // NOI18N
-        jLabel6.setText("Fifth Semester");
+        jLabel6.setText("CAT201 GROUP PROJECT");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
