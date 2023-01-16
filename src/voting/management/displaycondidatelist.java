@@ -49,7 +49,7 @@ public class displaycondidatelist extends javax.swing.JFrame {
             User2 user2;
             while(rs.next())
             {
-            user2=new User2(rs.getString("name"),rs.getString("party_leader"),rs.getString("sex"),rs.getString("age"),rs.getString("partyheadquater"),rs.getString("partysign"));
+            user2=new User2(rs.getString("partyname"),rs.getString("party_leader"),rs.getString("sex"),rs.getString("age"),rs.getString("partyheadquater"),rs.getString("partysign"));
            userlist2.add(user2);
             }
             

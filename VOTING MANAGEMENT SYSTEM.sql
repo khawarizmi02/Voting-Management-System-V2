@@ -41,10 +41,12 @@ insert into result5 values (5,'NCP',0);
 
 
 create table partylist1(
-
-
+ partyname varchar(100),
+ party_leader varchar(100),
+ sex varchar(10),
+ age char,
+ partyheadquater varchar(100),
+ partysign varchar(30)
 );
 
 
-
-select * from result5
