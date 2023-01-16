@@ -42,11 +42,11 @@ public class Help extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jTextArea1.setText("How to vote?\nstep 1:-");
+        jTextArea1.setRows(20);
+        jTextArea1.setText("How to vote?\nstep 1:- hello I love programming so much ");
         jScrollPane1.setViewportView(jTextArea1);
 
-        jToggleButton1.setText("jToggleButton1");
+        jToggleButton1.setText("OKAY");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

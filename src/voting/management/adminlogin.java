@@ -181,6 +181,12 @@ public class adminlogin extends javax.swing.JFrame {
         jvreset.setForeground(new java.awt.Color(0, 0, 204));
         jvreset.setText("Reset");
         jvreset.setActionCommand("");
+        // reset button funtion
+        jvreset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clearpanel(evt);
+            }
+        });
         jvreset.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jvreset.setBorderPainted(false);
         jvreset.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -299,7 +305,7 @@ public class adminlogin extends javax.swing.JFrame {
             Logger.getLogger(adminlogin.class.getName()).log(Level.SEVERE, null, ex);
         
         }
-        
+
     }//GEN-LAST:event_jvloginActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -341,6 +347,13 @@ public class adminlogin extends javax.swing.JFrame {
             }
         });
     }
+
+    // clearpanel function reset
+    private void clearpanel(java.awt.event.ActionEvent evt) {
+        jvoterid.setText("");
+        jvoterpassword.setText("");
+    }//GEN-LAST:event_jpaddActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
