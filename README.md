@@ -22,6 +22,12 @@ This is window based application using jframe
 - copy the sql script from the VOTING MANAGEMENT SYSTEM.sql file
 - then create new database name:dbms 
 - paste the script into sql query command and run all the command
+
+## Compiler Notes
+- make sure that before you run the program, click the build project button
+- then you click the current file button where it's located on the top right panel beside run button
+- then click edit configuration browse the adminlogin file
+
 ## Working Video
 
 [![Watch the video](https://github.com/Niraj-Ranjan/Voting-Management-System/blob/master/Screenshot/Screenshot%20(139).png)](https://www.youtube.com/watch?v=vL1COucMHyY&t=29s)
