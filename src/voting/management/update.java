@@ -217,7 +217,7 @@ public class update extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         
         try {
-            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/VOTING MANAGEMENT SYSTEM", 
+            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/vms",
                     "postgres", "dbms");
         String sql="update addvoter1 set name='"+juname.getText()+"',fathername='"+jufathername.getText()+"',address='"+juaddress.getText()+"',sex='"+jusex.getText()+"' where voterid='"+juvoterid.getText()+"'";
         Statement ps;

@@ -29,7 +29,7 @@ public class Dispalyvoterlist extends javax.swing.JFrame {
         ArrayList<User> userlist=new ArrayList<>();
         try{
             
-            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/VOTING MANAGEMENT SYSTEM", 
+            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/vms",
                     "postgres", "dbms");
             String sql="select * from addvoter1";
             Statement ps= con.createStatement();

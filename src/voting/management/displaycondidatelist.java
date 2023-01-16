@@ -40,7 +40,7 @@ public class displaycondidatelist extends javax.swing.JFrame {
         ArrayList<User2> userlist2=new ArrayList<>();
         try{
             
-            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/VOTING MANAGEMENT SYSTEM", 
+            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/vms",
                     "postgres", "dbms");
             String sql="select * from partylist1";
             Statement ps= con.createStatement();

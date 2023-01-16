@@ -292,7 +292,7 @@ public class Startelection extends javax.swing.JFrame {
       try {
          Class.forName("org.postgresql.Driver");
          c = DriverManager
-            .getConnection("jdbc:postgresql://localhost:5432/VOTING MANAGEMENT SYSTEM",
+            .getConnection("jdbc:postgresql://localhost:5432/vms",
             "postgres", "dbms");
          
          System.out.println("Opened database successfully");

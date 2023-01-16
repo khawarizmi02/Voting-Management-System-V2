@@ -35,7 +35,7 @@ public class votingresult extends javax.swing.JFrame {
         ArrayList<User1> userlist1=new ArrayList<>();
         try{
             
-            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/VOTING MANAGEMENT SYSTEM", 
+            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/vms",
                     "postgres", "dbms");
             String sql="select * from result5 where count=(select max(count) from result5)";
             Statement ps= con.createStatement();
