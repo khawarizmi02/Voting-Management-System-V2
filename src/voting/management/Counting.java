@@ -77,7 +77,7 @@ public class Counting extends javax.swing.JFrame {
         ArrayList<User4> userlist4=new ArrayList<>();
         try{
             
-            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/VOTING MANAGEMENT SYSTEM", 
+            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/vms", 
                     "postgres", "dbms");
             String sql="select partyname,count from result5";
             Statement ps= con.createStatement();
