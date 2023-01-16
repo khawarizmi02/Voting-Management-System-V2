@@ -4,11 +4,11 @@ import java.util.*;
 import javax.swing.*;
 import javax.swing.Timer;
  
-public class NewClass extends JPanel implements ActionListener
+public class TimerClock extends JPanel implements ActionListener
 {
     private JLabel timeLabel;
  
-    public NewClass()
+    public TimerClock()
     {
         timeLabel = new JLabel( new Date().toString() );
         add( timeLabel );
@@ -29,7 +29,7 @@ public class NewClass extends JPanel implements ActionListener
     {
         JFrame frame = new JFrame("TimerTime");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.add( new NewClass() );
+        frame.add( new TimerClock() );
         frame.setLocationByPlatform( true );
         frame.pack();
         frame.setVisible( true );
