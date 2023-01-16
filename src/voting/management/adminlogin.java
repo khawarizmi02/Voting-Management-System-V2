@@ -274,7 +274,7 @@ public class adminlogin extends javax.swing.JFrame {
        
          try {
             
-            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/VOTING MANAGEMENT SYSTEM", 
+            Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/vms",
                     "postgres", "dbms");
             String sql2="select voterid,password from addvoter1 where voterid=? and password=?";
             PreparedStatement ps1=con.prepareStatement(sql2);
