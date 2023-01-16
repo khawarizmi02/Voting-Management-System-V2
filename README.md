@@ -10,8 +10,14 @@ This is window based application using jframe
 ## Back End 
 - Postgres data base
 - https://www.postgresql.org/download/windows/
-- username= postgre
-- password= DBMS
+- username= postgres
+- password= dbms
+**STEP TO SET UP POSTGRESQL**
+- Go to the postgresql.org website to download postgresql setup exe
+- unpick the toobars set up because it will make you confuse 
+- **remember to set the password to dbms**
+**download datagrip for better UI experince**
+- and use you're student email for free excess
 
 ## Working Video
 
