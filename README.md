@@ -18,7 +18,10 @@ This is window based application using jframe
 - **remember to set the password to dbms**
 **download datagrip for better UI experince**
 - and use you're student email for free excess
-
+## Creating database in the postgresql
+- copy the sql script from the VOTING MANAGEMENT SYSTEM.sql file
+- then create new database name:dbms 
+- paste the script into sql query command and run all the command
 ## Working Video
 
 [![Watch the video](https://github.com/Niraj-Ranjan/Voting-Management-System/blob/master/Screenshot/Screenshot%20(139).png)](https://www.youtube.com/watch?v=vL1COucMHyY&t=29s)
