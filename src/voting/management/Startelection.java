@@ -437,7 +437,7 @@ public class Startelection extends javax.swing.JFrame {
                 votecount = votecount + 1;
                 System.out.println("total = " + votecount);
             }
-            int ps = stmt.executeUpdate("update result5 set count=" + votecount + "where id=5;");
+            int ps = stmt.executeUpdate("update result5 set count=" + votecount + " where id=5;");
             JOptionPane.showMessageDialog(null, "you are voted to BJP");
             System.exit(0);
 
