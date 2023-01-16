@@ -31,11 +31,11 @@ count int
 
 );
 
-insert into result5 values ('BJP',0,1);
-insert into result5 values ('INC',0,2);
-insert into result5 values ('CPI',0,3);
-insert into result5 values ('BSP',0,4);
-insert into result5 values ('NCP',0,5);
+insert into result5 values (1,'BJP',0);
+insert into result5 values (2,'INC',0);
+insert into result5 values (3,'CPI',0);
+insert into result5 values (4,'BSP',0);
+insert into result5 values (5,'NCP',0);
 
 
 
