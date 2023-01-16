@@ -251,7 +251,7 @@ jpsign.addItem("NCP");
 
 
 
-//   my test codekj
+//   my update bug fix on clear button function
 
     private void clearpanel(java.awt.event.ActionEvent evt) {
         jpsex.setText("");

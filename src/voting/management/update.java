@@ -107,6 +107,11 @@ public class update extends javax.swing.JFrame {
         jButton2.setBorder(null);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clearpanel(evt);
+            }
+        });
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
@@ -283,6 +288,16 @@ public class update extends javax.swing.JFrame {
             }
         });
     }
+
+    // my code update reset button
+    private void clearpanel(java.awt.event.ActionEvent evt) {
+        juaddress.setText("");
+        juage.setText("");
+        jufathername.setText("");
+        juname.setText("");
+        jusex.setText("");
+        juvoterid.setText("");
+    }//GEN-LAST:event_jpaddActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
