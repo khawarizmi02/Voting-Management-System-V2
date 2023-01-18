@@ -231,13 +231,25 @@ public class update extends javax.swing.JFrame {
         try {
             Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/vms",
                     "postgres", "dbms");
-        String sql="update addvoter1 set name='"+juname.getText()+"',fathername='"+jufathername.getText()+"',address='"+juaddress.getText()+"',sex='"+jusex.getSelectedItem()+"' where voterid='"+juvoterid.getText()+"'";
-        Statement ps;
-            ps = con.createStatement();
-        ps.executeUpdate(sql);
-        JOptionPane.showMessageDialog(null, "Data updated Sucessfully");
-        
-        
+            String sql;
+        // adding constraint of age
+            String s=juage.getText();
+
+            int i=Integer.parseInt(s);
+            if(i>=18)
+            {
+                sql="update addvoter1 set name='"+juname.getText()+"',fathername='"+jufathername.getText()+"',address='"+juaddress.getText()+"',sex='"+jusex.getSelectedItem()+"',age='"+juage.getText()+"' where voterid='"+juvoterid.getText()+"'";
+                Statement ps;
+                ps = con.createStatement();
+                ps.executeUpdate(sql);
+                JOptionPane.showMessageDialog(null, "Data updated Sucessfully");
+            }
+            else
+            {
+                JOptionPane.showMessageDialog(null, "age must greater than 18");
+                clearpanel(evt);
+            }
+
         
         } catch (SQLException ex) {
             Logger.getLogger(Addvoter.class.getName()).log(Level.SEVERE, null, ex);
