@@ -56,7 +56,7 @@ public class update extends javax.swing.JFrame {
         jLabel2.setText("VOTER ID");
         jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, -1, -1));
 
-        juvoterid.setForeground(new java.awt.Color(255, 0, 0));
+        juvoterid.setForeground(new java.awt.Color(0, 0, 0));
         juvoterid.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel3.add(juvoterid, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 230, 30));
 
