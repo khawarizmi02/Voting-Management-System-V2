@@ -23,21 +23,23 @@ public class addcondidate extends javax.swing.JFrame {
     public addcondidate() {
         initComponents();
       partysign();
+      sexname();
     }
 public void partysign()
 {
-    
-    
 jpsign.addItem("");
 jpsign.addItem("Lotus");
 jpsign.addItem("Hand");
 jpsign.addItem("Elephant");
 jpsign.addItem("CPI");
 jpsign.addItem("NCP");
-
-
-
 }
+    public void sexname()
+    {
+        jpsex.addItem("");
+        jpsex.addItem("Male");
+        jpsex.addItem("Female");
+    }
     
     /**
      * This method is called from within the constructor to initialize the form.
@@ -55,7 +57,7 @@ jpsign.addItem("NCP");
         jLabel4 = new javax.swing.JLabel();
         jpleader = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
-        jpsex = new javax.swing.JTextField();
+        jpsex = new java.awt.Choice();
         jLabel6 = new javax.swing.JLabel();
         jpage = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
@@ -91,7 +93,7 @@ jpsign.addItem("NCP");
 
         jLabel5.setText("Sex");
 
-        jpsex.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+//        jpsex.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel6.setText("Age");
 
@@ -254,7 +256,7 @@ jpsign.addItem("NCP");
 //   my update bug fix on clear button function
 
     private void clearpanel(java.awt.event.ActionEvent evt) {
-        jpsex.setText("");
+        jpsex.select(0);
         jpname.setText("");
         jpleader.setText("");
         jpheadquater.setText("");
@@ -290,7 +292,8 @@ jpsign.addItem("NCP");
         PreparedStatement ps=con.prepareStatement(sql);
         ps.setString(1, jpname.getText());
         ps.setString(2, jpleader.getText());
-        ps.setString(3, jpsex.getText());
+//        ps.setString(3, jpsex.getText()); // code before make the user choose gender instead of type its gender
+            ps.setString(6, jpsex.getItem(jpsex.getSelectedIndex()));
         
         String s=jpage.getText();
         
@@ -394,7 +397,7 @@ jpsign.addItem("NCP");
     private javax.swing.JTextField jpheadquater;
     private javax.swing.JTextField jpleader;
     private javax.swing.JTextField jpname;
-    private javax.swing.JTextField jpsex;
+    private java.awt.Choice jpsex;
     private java.awt.Choice jpsign;
     // End of variables declaration//GEN-END:variables
 }
