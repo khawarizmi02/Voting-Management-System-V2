@@ -16,6 +16,13 @@ public class update extends javax.swing.JFrame {
     
     public update() {
         initComponents();
+        sexname();
+    }
+    public void sexname()
+    {
+        jusex.addItem("");
+        jusex.addItem("Male");
+        jusex.addItem("Female");
     }
 
     
@@ -33,7 +40,7 @@ public class update extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         juaddress = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
-        jusex = new javax.swing.JTextField();
+        jusex = new java.awt.Choice();
         jLabel7 = new javax.swing.JLabel();
         juage = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
@@ -86,7 +93,7 @@ public class update extends javax.swing.JFrame {
         jLabel6.setText("SEX");
         jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 300, -1, -1));
 
-        jusex.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+//        jusex.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel3.add(jusex, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 320, 230, 30));
 
         jLabel7.setText("AGE");
@@ -224,7 +231,7 @@ public class update extends javax.swing.JFrame {
         try {
             Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/vms",
                     "postgres", "dbms");
-        String sql="update addvoter1 set name='"+juname.getText()+"',fathername='"+jufathername.getText()+"',address='"+juaddress.getText()+"',sex='"+jusex.getText()+"' where voterid='"+juvoterid.getText()+"'";
+        String sql="update addvoter1 set name='"+juname.getText()+"',fathername='"+jufathername.getText()+"',address='"+juaddress.getText()+"',sex='"+jusex.getSelectedItem()+"' where voterid='"+juvoterid.getText()+"'";
         Statement ps;
             ps = con.createStatement();
         ps.executeUpdate(sql);
@@ -295,7 +302,7 @@ public class update extends javax.swing.JFrame {
         juage.setText("");
         jufathername.setText("");
         juname.setText("");
-        jusex.setText("");
+        jusex.select(0);
         juvoterid.setText("");
     }//GEN-LAST:event_jpaddActionPerformed
 
@@ -321,7 +328,7 @@ public class update extends javax.swing.JFrame {
     private javax.swing.JTextField juage;
     private javax.swing.JTextField jufathername;
     private javax.swing.JTextField juname;
-    private javax.swing.JTextField jusex;
+    private java.awt.Choice jusex;
     private javax.swing.JTextField juvoterid;
     // End of variables declaration//GEN-END:variables
 }
