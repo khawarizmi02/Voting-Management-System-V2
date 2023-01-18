@@ -135,7 +135,7 @@ public class Home extends javax.swing.JFrame {
         jupdatecondidate.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
         jupdatecondidate.setForeground(new java.awt.Color(255, 255, 255));
         jupdatecondidate.setText("Update Candidate");
-        jupdatecondidate.setBorder(null);
+//        jupdatecondidate.setBorder(false);
         jupdatecondidate.setContentAreaFilled(false);
         jupdatecondidate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
