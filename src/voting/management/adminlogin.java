@@ -103,7 +103,7 @@ public class adminlogin extends javax.swing.JFrame {
         });
         jPanel4.add(jusername, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, 208, 30));
 
-        jLabel3.setText("PassWord");
+        jLabel3.setText("Password");
         jPanel4.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 68, -1));
 
         jpassword.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 255, 51)));
