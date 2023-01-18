@@ -65,7 +65,7 @@ public class adminlogin extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(0, 0, 255));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/voting/management/ic_person_white_48dp.png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/SPR.png"))); // NOI18N
         jLabel8.setText("jLabel8");
         jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 187, 221));
 
