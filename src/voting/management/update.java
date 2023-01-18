@@ -247,7 +247,7 @@ public class update extends javax.swing.JFrame {
             else
             {
                 JOptionPane.showMessageDialog(null, "age must greater than 18");
-                clearpanel(evt);
+                juage.setText("");
             }
 
         
