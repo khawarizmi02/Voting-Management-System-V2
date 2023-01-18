@@ -256,42 +256,37 @@ public class Addvoter extends javax.swing.JFrame {
                     "postgres", "dbms");
         String sql="insert into addvoter1 values(?,?,?,?,?,?,?)";
         PreparedStatement ps=con.prepareStatement(sql);
-        ps.setString(1, jvoterid.getText());
-        ps.setString(2, jpassword.getText());
-        ps.setString(3, jname.getText());
-        ps.setString(4, jfathername.getText());
-        ps.setString(5, jaddress.getText());
-        ps.setString(6, jsex.getSelectedItem());
+//        ps.setString(1, jvoterid.getText());
+//        ps.setString(2, jpassword.getText());
+//        ps.setString(3, jname.getText());
+//        ps.setString(4, jfathername.getText());
+//        ps.setString(5, jaddress.getText());
+//        ps.setString(6, jsex.getSelectedItem());
         
         String s=jage.getText();
         
         int i=Integer.parseInt(s);
         if(i>=18)
         {
+            ps.setString(1, jvoterid.getText());
+            ps.setString(2, jpassword.getText());
+            ps.setString(3, jname.getText());
+            ps.setString(4, jfathername.getText());
+            ps.setString(5, jaddress.getText());
+            ps.setString(6, jsex.getSelectedItem());
             ps.setString(7, jage.getText());
+            ps.execute();
+            JOptionPane.showMessageDialog(null, "Data Inserted Sucessfully");
+            Home h=new Home();
+            h.setVisible(true);
+            dispose();
         }
         else
         {
-        JOptionPane.showMessageDialog(null, "age must greater than 18");}
-        ps.execute();
-        
-        
-        JOptionPane.showMessageDialog(null, "Data Inserted Sucessfully");
-        Home h=new Home();
-        h.setVisible(true);
-        dispose();
-        
-        
-        
-        
-        
-     
-           
-        
-        
-        
-        
-        
+        JOptionPane.showMessageDialog(null, "age must greater than 18");
+        jage.setText("");
+        }
+
         
         }catch (SQLException ex) {
             Logger.getLogger(Addvoter.class.getName()).log(Level.SEVERE, null, ex);}
