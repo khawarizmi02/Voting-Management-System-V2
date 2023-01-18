@@ -26,6 +26,13 @@ public class Addvoter extends javax.swing.JFrame {
      */
     public Addvoter() {
         initComponents();
+        sexname();
+    }
+    public void sexname()
+    {
+        jsex.addItem("");
+        jsex.addItem("Male");
+        jsex.addItem("Female");
     }
 
     /**
@@ -48,7 +55,7 @@ public class Addvoter extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jaddress = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
-        jsex = new javax.swing.JTextField();
+        jsex = new java.awt.Choice();
         jLabel7 = new javax.swing.JLabel();
         jage = new javax.swing.JTextField();
         jpassword = new javax.swing.JPasswordField();
@@ -116,12 +123,8 @@ public class Addvoter extends javax.swing.JFrame {
         jLabel6.setText("Sex");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, -1, -1));
 
-        jsex.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jsex.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jsexActionPerformed(evt);
-            }
-        });
+//        jsex.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jsex.getSelectedIndex();
         jPanel1.add(jsex, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 180, 30));
 
         jLabel7.setText("Age");
@@ -258,7 +261,7 @@ public class Addvoter extends javax.swing.JFrame {
         ps.setString(3, jname.getText());
         ps.setString(4, jfathername.getText());
         ps.setString(5, jaddress.getText());
-        ps.setString(6, jsex.getText());
+        ps.setString(6, jsex.getSelectedItem());
         
         String s=jage.getText();
         
@@ -302,9 +305,7 @@ public class Addvoter extends javax.swing.JFrame {
         jfathername.setText(null);
         jaddress.setText(null);
         jage.setText(null);
-        
-        
-        
+        jsex.select(0);
     }//GEN-LAST:event_jclearActionPerformed
 
     private void jsexActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jsexActionPerformed
@@ -390,7 +391,7 @@ public class Addvoter extends javax.swing.JFrame {
     private javax.swing.JTextField jfathername;
     private javax.swing.JTextField jname;
     private javax.swing.JPasswordField jpassword;
-    private javax.swing.JTextField jsex;
+    private java.awt.Choice jsex;
     private javax.swing.JTextField jvoterid;
     // End of variables declaration//GEN-END:variables
 }
