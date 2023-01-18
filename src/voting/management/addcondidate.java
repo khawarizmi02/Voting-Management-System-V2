@@ -262,23 +262,7 @@ jpsign.addItem("NCP");
         jpheadquater.setText("");
         jpage.setText("");
         jpsign.select(0);
-
-
     }//GEN-LAST:event_jpaddActionPerformed
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     private void jpaddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jpaddActionPerformed
         try{
