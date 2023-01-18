@@ -274,46 +274,37 @@ jpsign.addItem("NCP");
                     "postgres", "dbms");
         String sql="insert into partylist1 values(?,?,?,?,?,?)";
         PreparedStatement ps=con.prepareStatement(sql);
-        ps.setString(1, jpname.getText());
-        ps.setString(2, jpleader.getText());
-//        ps.setString(3, jpsex.getText()); // code before make the user choose gender instead of type its gender
-            ps.setString(6, jpsex.getItem(jpsex.getSelectedIndex()));
+
         
         String s=jpage.getText();
         
         int i=Integer.parseInt(s);
         if(i>=18)
         {
+            ps.setString(1, jpname.getText());
+            ps.setString(2, jpleader.getText());
+            ps.setString(3, jpsex.getItem(jpsex.getSelectedIndex()));
             ps.setString(4, jpage.getText());
+            ps.setString(5, jpheadquater.getText());
+            ps.setString(6, jpsign.getItem(jpsign.getSelectedIndex()));
+
+            ps.execute();
+            JOptionPane.showMessageDialog(null, "Data Inserted Sucessfully");
+            Home h=new Home();
+            h.setVisible(true);
+            dispose();
         }
         else
         {
-        JOptionPane.showMessageDialog(null, "age must greater than 18");}
-        
-        
-        ps.setString(5, jpheadquater.getText());
-        ps.setString(6, jpsign.getItem(jpsign.getSelectedIndex()));
-        
-        ps.execute();
-        
-        JOptionPane.showMessageDialog(null, "Data Inserted Sucessfully");
-        
-        
-     
-            /*setString*/ 
-        
-        
-        
-        
-        
+        JOptionPane.showMessageDialog(null, "age must greater than 18");
+        jpage.setText("");
+        }
+
+            /*setString*/
         
         }catch (SQLException ex) {
             Logger.getLogger(Addvoter.class.getName()).log(Level.SEVERE, null, ex);}
-        
-        
-        
-        
-        
+
         
     }//GEN-LAST:event_jpaddActionPerformed
 
