@@ -3,8 +3,10 @@
 name varchar(30),password varchar(30));
 
 insert into admin values ('niraj','ranjan');
-
-
+insert into admin values ('khawa','jefri');
+insert into admin values ('haiqal','rafiq');
+insert into admin values ('izzat','habib');
+insert into admin values ('tuan','amsyar');
 
 
 create table addvoter1 (
@@ -19,16 +21,11 @@ age varchar(100)
 
 );
 
-/*select * from addvoter1
-
-delete result5;*/
-
 
 create table result5(
 id int,
 partyname varchar(100),
-count int 
-
+count int
 );
 
 insert into result5 values (1,'BJP',0);
@@ -41,7 +38,7 @@ insert into result5 values (5,'NCP',0);
 
 
 create table partylist1(
- partyname varchar(100),
+ partyname varchar(100) primary key,
  party_leader varchar(100),
  sex varchar(10),
  age varchar(10),
