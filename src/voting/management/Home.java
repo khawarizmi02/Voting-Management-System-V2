@@ -135,7 +135,7 @@ public class Home extends javax.swing.JFrame {
         jupdatecondidate.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
         jupdatecondidate.setForeground(new java.awt.Color(255, 255, 255));
         jupdatecondidate.setText("Update Candidate");
-//        jupdatecondidate.setBorder(false);
+        jupdatecondidate.setBorder(null);
         jupdatecondidate.setContentAreaFilled(false);
         jupdatecondidate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -239,7 +239,7 @@ public class Home extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
 
         jresult.setBackground(new java.awt.Color(255, 255, 255));
-        jresult.setText("For Result");
+        jresult.setText("Show Result");
         jresult.setAutoscrolls(true);
         jresult.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(255, 0, 0)));
         jresult.setContentAreaFilled(false);
@@ -249,7 +249,7 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        jcounting.setText("For Counting");
+        jcounting.setText("Show Counting");
         jcounting.setBorder(javax.swing.BorderFactory.createMatteBorder(3, 3, 3, 3, new java.awt.Color(255, 0, 0)));
         jcounting.setContentAreaFilled(false);
         jcounting.addActionListener(new java.awt.event.ActionListener() {
@@ -387,14 +387,10 @@ dispose();// TODO add your handling code here:
        dispose();
     }//GEN-LAST:event_jdiscondidatelistActionPerformed
 
-    private void jresultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jresultActionPerformed
-votingresult v=new votingresult();
-v.setVisible(true);
-dispose();
-        
-        
-        
-        
+    private void jresultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jresultActionPerforme
+         votingresult v=new votingresult();
+         v.setVisible(true);
+         dispose();
     }//GEN-LAST:event_jresultActionPerformed
 
     private void jcountingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcountingActionPerformed
@@ -427,7 +423,9 @@ dispose();
 
     private void jupdatecondidateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jupdatecondidateActionPerformed
         
-        
+        UpdateCandidate uc = new UpdateCandidate();
+        uc.setVisible(true);
+        dispose();
         
         
     }//GEN-LAST:event_jupdatecondidateActionPerformed
