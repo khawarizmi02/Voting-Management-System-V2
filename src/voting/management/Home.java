@@ -25,7 +25,6 @@ public class Home extends javax.swing.JFrame {
      * Creates new form home
      */
     public Home() {
-  
         initComponents();
     }
 
