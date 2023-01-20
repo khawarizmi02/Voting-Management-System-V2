@@ -138,7 +138,7 @@ public class Addvoter extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(255, 204, 0));
 
-        jadd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/voting/management/add.png"))); // NOI18N
+        jadd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/add.png"))); // NOI18N
         jadd.setBorder(null);
         jadd.setContentAreaFilled(false);
         jadd.addActionListener(new java.awt.event.ActionListener() {
@@ -147,7 +147,7 @@ public class Addvoter extends javax.swing.JFrame {
             }
         });
 
-        jclear.setIcon(new javax.swing.ImageIcon(getClass().getResource("/voting/management/cached.png"))); // NOI18N
+        jclear.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/cached.png"))); // NOI18N
         jclear.setBorder(null);
         jclear.setContentAreaFilled(false);
         jclear.addActionListener(new java.awt.event.ActionListener() {
@@ -191,7 +191,7 @@ public class Addvoter extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/voting/management/back.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/back.png"))); // NOI18N
         jButton1.setBorder(null);
         jButton1.setContentAreaFilled(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -213,7 +213,7 @@ public class Addvoter extends javax.swing.JFrame {
                 .addGap(0, 53, Short.MAX_VALUE))
         );
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/voting/management/ic_fingerprint_white_24dp.png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/ic_fingerprint_white_24dp.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

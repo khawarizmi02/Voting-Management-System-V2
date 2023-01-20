@@ -70,7 +70,7 @@ public class Startelection extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("  Start Election");
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/voting/management/ic_fingerprint_white_24dp.png"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/ic_fingerprint_white_24dp.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -100,7 +100,7 @@ public class Startelection extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        jbjp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/voting/management/fig forvote .png"))); // NOI18N
+        jbjp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
         jbjp.setContentAreaFilled(false);
         jbjp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -113,7 +113,7 @@ public class Startelection extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 0, 0));
         jLabel3.setText("BJP");
 
-        jinc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/voting/management/fig forvote .png"))); // NOI18N
+        jinc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
         jinc.setContentAreaFilled(false);
         jinc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -126,7 +126,7 @@ public class Startelection extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 0, 0));
         jLabel4.setText("INC");
 
-        jcpi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/voting/management/fig forvote .png"))); // NOI18N
+        jcpi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
         jcpi.setContentAreaFilled(false);
         jcpi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,7 +139,7 @@ public class Startelection extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(255, 0, 0));
         jLabel5.setText("CPI");
 
-        jbsp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/voting/management/fig forvote .png"))); // NOI18N
+        jbsp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
         jbsp.setContentAreaFilled(false);
         jbsp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -147,7 +147,7 @@ public class Startelection extends javax.swing.JFrame {
             }
         });
 
-        jncp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/voting/management/fig forvote .png"))); // NOI18N
+        jncp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
         jncp.setContentAreaFilled(false);
         jncp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
