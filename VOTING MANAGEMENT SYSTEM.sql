@@ -11,14 +11,12 @@ insert into admin values ('tuan','amsyar');
 
 create table addvoter1 (
 voterid varchar(100) primary key ,
-password varchar(100),
+password varchar(100) unique,
 name varchar(100),
 fathername varchar(100),
 address varchar(200),
 sex varchar(100),
 age varchar(100)
-
-
 );
 
 

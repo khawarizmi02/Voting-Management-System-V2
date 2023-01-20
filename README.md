@@ -12,7 +12,7 @@ This is window based application using jframe
 - https://www.postgresql.org/download/windows/
 - username= postgres
 - password= dbms
-**STEP TO SET UP POSTGRESQL**
+## STEP TO SET UP POSTGRESQL
 - Go to the postgresql.org website to download postgresql setup exe
 - unpick the toobars set up because it will make you confuse 
 - **remember to set the password to dbms**
