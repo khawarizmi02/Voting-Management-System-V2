@@ -391,6 +391,7 @@ public class Home extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jaddvoterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jaddvoterActionPerformed
+
         Addvoter add=new Addvoter();
         add.setVisible(true);   
         dispose();
