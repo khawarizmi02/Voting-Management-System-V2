@@ -392,8 +392,8 @@ public class Home extends javax.swing.JFrame {
 
     private void jaddvoterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jaddvoterActionPerformed
 
-        Addvoter add=new Addvoter();
-        add.setVisible(true);   
+        Choose choose=new Choose();
+        choose.setVisible(true);
         dispose();
            
     }//GEN-LAST:event_jaddvoterActionPerformed

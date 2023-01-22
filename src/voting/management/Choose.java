@@ -126,7 +126,7 @@ public class Choose extends javax.swing.JFrame {
     private void Action2Performed(java.awt.event.ActionEvent evt) {
         Addvoter addvoter = new Addvoter();
         addvoter.setVisible(true);
-        dispose();
+        new Choose().dispose();
     }
 
     private void importData(List<String[]> content) {
@@ -154,7 +154,7 @@ public class Choose extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Data Inserted Sucessfully");
 
         } catch (SQLException ex) {
-            Logger.getLogger(Addvoter.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Choose.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 

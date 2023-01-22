@@ -315,7 +315,7 @@ public class Addvoter extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Home h=new Home();
         h.setVisible(true);
-        dispose();
+        new Addvoter().dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jvoteridMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jvoteridMouseClicked

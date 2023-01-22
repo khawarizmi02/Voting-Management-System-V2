@@ -83,9 +83,9 @@ public class Dispalyvoterlist extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         jtableaddvoter.setAutoCreateRowSorter(true);
-        jtableaddvoter.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 0, 0)));
+        jtableaddvoter.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jtableaddvoter.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
-        jtableaddvoter.setForeground(new java.awt.Color(255, 0, 102));
+        jtableaddvoter.setForeground(new java.awt.Color(0, 0, 0));
         jtableaddvoter.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -103,7 +103,7 @@ public class Dispalyvoterlist extends javax.swing.JFrame {
             }
         });
         jtableaddvoter.setAutoscrolls(false);
-        jtableaddvoter.setGridColor(new java.awt.Color(255, 0, 102));
+        jtableaddvoter.setGridColor(new java.awt.Color(0, 0, 0));
         jtableaddvoter.setInheritsPopupMenu(true);
         jScrollPane2.setViewportView(jtableaddvoter);
         if (jtableaddvoter.getColumnModel().getColumnCount() > 0) {
@@ -111,8 +111,8 @@ public class Dispalyvoterlist extends javax.swing.JFrame {
         }
 
         jLabel1.setBackground(new java.awt.Color(255, 153, 0));
-        jLabel1.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel1.setFont(new java.awt.Font("Calibri Bold", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Voter List");
 
