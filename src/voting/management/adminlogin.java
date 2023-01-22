@@ -282,12 +282,20 @@ public class adminlogin extends javax.swing.JFrame {
             
             Connection  con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/vms",
                     "postgres", "dbms");
-            String sql2="select voterid,password from addvoter1 where voterid=? and password=?";
+            String sql2="select voterid,password from addvoter1 where voterid=? and password=? and donevote=0";
             PreparedStatement ps1=con.prepareStatement(sql2);
              ps1.setString(1, jvoterid.getText());
             ps1.setString(2, String.valueOf(jvoterpassword.getPassword()));
             ResultSet result = ps1.executeQuery();
             if(result.next()){
+
+                System.out.println(jvoterid.getText());
+
+
+                String sql3 = "update addvoter1 set donevote = '1' where voterid='"+jvoterid.getText()+"'";
+                Statement ps;
+                ps = con.createStatement();
+                ps.executeUpdate(sql3);
                 JOptionPane.showMessageDialog(null, "Username and Password correct");
                 
                 Startelection s=new Startelection();
@@ -297,7 +305,7 @@ public class adminlogin extends javax.swing.JFrame {
                 
             }
             else{
-                JOptionPane.showMessageDialog(null, "invalid username or password");
+                JOptionPane.showMessageDialog(null, " You have voted or invalid username or password");
                 
             }
 
