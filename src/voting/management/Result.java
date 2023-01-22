@@ -78,7 +78,7 @@ public    void show()
       try {
          Class.forName("org.postgresql.Driver");
          c1 = DriverManager
-            .getConnection("jdbc:postgresql://localhost:5432/VOTING MANAGEMENT SYSTEM",
+            .getConnection("jdbc:postgresql://localhost:5432/vms",
             "postgres", "dbms");
         
          System.out.println("Opened database successfully");
@@ -125,7 +125,7 @@ Connection c = null;
       try {
          Class.forName("org.postgresql.Driver");
          c = DriverManager
-            .getConnection("jdbc:postgresql://localhost:5432/VOTING MANAGEMENT SYSTEM",
+            .getConnection("jdbc:postgresql://localhost:5432/vms",
             "postgres", "dbms");
         
          System.out.println("Opened database successfully");

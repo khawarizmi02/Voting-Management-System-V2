@@ -43,14 +43,14 @@ public class Startelection extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
-        jbjp = new javax.swing.JButton();
+        jph = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
-        jinc = new javax.swing.JButton();
+        jbn = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
-        jcpi = new javax.swing.JButton();
+        jgta = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
-        jbsp = new javax.swing.JButton();
-        jncp = new javax.swing.JButton();
+        jpn = new javax.swing.JButton();
+        jgps = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -100,80 +100,80 @@ public class Startelection extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        jbjp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
-        jbjp.setContentAreaFilled(false);
-        jbjp.addActionListener(new java.awt.event.ActionListener() {
+        jph.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
+        jph.setContentAreaFilled(false);
+        jph.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jbjpActionPerformed(evt);
+                jphActionPerformed(evt);
             }
         });
 
-        jLabel3.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel3.setText("BJP");
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel3.setText("PH");
 
-        jinc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
-        jinc.setContentAreaFilled(false);
-        jinc.addActionListener(new java.awt.event.ActionListener() {
+        jbn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
+        jbn.setContentAreaFilled(false);
+        jbn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jincActionPerformed(evt);
+                jbnActionPerformed(evt);
             }
         });
 
-        jLabel4.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel4.setBackground(new java.awt.Color(0, 0, 0));
         jLabel4.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel4.setText("INC");
+        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel4.setText("BN");
 
-        jcpi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
-        jcpi.setContentAreaFilled(false);
-        jcpi.addActionListener(new java.awt.event.ActionListener() {
+        jgta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
+        jgta.setContentAreaFilled(false);
+        jgta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jcpiActionPerformed(evt);
+                jgtaActionPerformed(evt);
             }
         });
 
-        jLabel5.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel5.setBackground(new java.awt.Color(0, 0, 0));
         jLabel5.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel5.setText("CPI");
+        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel5.setText("GTA");
 
-        jbsp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
-        jbsp.setContentAreaFilled(false);
-        jbsp.addActionListener(new java.awt.event.ActionListener() {
+        jpn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
+        jpn.setContentAreaFilled(false);
+        jpn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jbspActionPerformed(evt);
+                jpnActionPerformed(evt);
             }
         });
 
-        jncp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
-        jncp.setContentAreaFilled(false);
-        jncp.addActionListener(new java.awt.event.ActionListener() {
+        jgps.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/fig forvote .png"))); // NOI18N
+        jgps.setContentAreaFilled(false);
+        jgps.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jncpActionPerformed(evt);
+                jgpsActionPerformed(evt);
             }
         });
 
-        jLabel6.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel6.setBackground(new java.awt.Color(0, 0, 0));
         jLabel6.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel6.setText("BSP");
+        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel6.setText("PN");
 
-        jLabel7.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel7.setBackground(new java.awt.Color(0, 0, 0));
         jLabel7.setFont(new java.awt.Font("Calibri", 0, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel7.setText("NCP");
+        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel7.setText("GPS");
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/chicken (Custom).jpeg"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/PH.png"))); // NOI18N
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/dog (Custom).jpeg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/BN.png"))); // NOI18N
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/kucing (Custom).jpeg"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/GTA.png"))); // NOI18N
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/pig (Custom).jpeg"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/PN.png"))); // NOI18N
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/horse (Custom).jpeg"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/party/logo/GPS.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -190,7 +190,7 @@ public class Startelection extends javax.swing.JFrame {
                                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                                                 .addComponent(jLabel5)
                                                                 .addGap(18, 18, 18)
-                                                                .addComponent(jcpi, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                                                                .addComponent(jgta, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                                                         .addComponent(jLabel8)
@@ -200,26 +200,26 @@ public class Startelection extends javax.swing.JFrame {
                                                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                                                                 .addComponent(jLabel3)
                                                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                                                .addComponent(jbjp, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                                                .addComponent(jph, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))
                                                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                                                 .addGap(10, 10, 10)
                                                                                 .addComponent(jLabel4)
                                                                                 .addGap(18, 18, 18)
-                                                                                .addComponent(jinc, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))))
+                                                                                .addComponent(jbn, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))))
                                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                                 .addGap(6, 6, 6)
                                                                 .addComponent(jLabel10)
                                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                                                 .addComponent(jLabel6)
                                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                                .addComponent(jbsp, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                                                .addComponent(jpn, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE))))
                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                 .addGap(15, 15, 15)
                                                 .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addGap(18, 18, 18)
                                                 .addComponent(jLabel7)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
-                                                .addComponent(jncp, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                .addComponent(jgps, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
@@ -232,7 +232,7 @@ public class Startelection extends javax.swing.JFrame {
                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                 .addContainerGap()
                                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(jbjp, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(jph, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                         .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE))))
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addGroup(jPanel2Layout.createSequentialGroup()
@@ -243,7 +243,7 @@ public class Startelection extends javax.swing.JFrame {
                                                 .addComponent(jLabel4))
                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                 .addGap(18, 18, 18)
-                                                .addComponent(jinc, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                .addComponent(jbn, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                 .addGap(33, 33, 33)
@@ -251,7 +251,7 @@ public class Startelection extends javax.swing.JFrame {
                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(jcpi, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(jgta, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                         .addComponent(jLabel9))))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -262,13 +262,13 @@ public class Startelection extends javax.swing.JFrame {
                                                 .addGap(0, 22, Short.MAX_VALUE))
                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(jbsp)
+                                                        .addComponent(jpn)
                                                         .addGroup(jPanel2Layout.createSequentialGroup()
                                                                 .addGap(34, 34, 34)
                                                                 .addComponent(jLabel6)))
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(jncp, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(jgps, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                                                                 .addComponent(jLabel7)
                                                                 .addGap(20, 20, 20)))
@@ -280,7 +280,7 @@ public class Startelection extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jbjpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbjpActionPerformed
+    private void jphActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jphActionPerformed
 
 
         Connection c = null;
@@ -301,7 +301,7 @@ public class Startelection extends javax.swing.JFrame {
                 System.out.println("total = " + votecount);
             }
             int ps = stmt.executeUpdate("update result5 set count=" + votecount + " where id=1;");
-            JOptionPane.showMessageDialog(null, "you are voted to BJP");
+            JOptionPane.showMessageDialog(null, "you are voted to PH");
             adminlogin h = new adminlogin();
             h.setVisible(true);
             dispose();
@@ -314,9 +314,9 @@ public class Startelection extends javax.swing.JFrame {
         System.out.println("Operation done successfully");
 
 
-    }//GEN-LAST:event_jbjpActionPerformed
+    }//GEN-LAST:event_jphActionPerformed
 
-    private void jincActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jincActionPerformed
+    private void jbnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbnActionPerformed
 
 
         Connection c = null;
@@ -337,7 +337,7 @@ public class Startelection extends javax.swing.JFrame {
                 System.out.println("total = " + votecount);
             }
             int ps = stmt.executeUpdate("update result5 set count=" + votecount + " where id=2;");
-            JOptionPane.showMessageDialog(null, "you are voted to INC");
+            JOptionPane.showMessageDialog(null, "you are voted to BN");
             System.exit(0);
 
 
@@ -347,9 +347,9 @@ public class Startelection extends javax.swing.JFrame {
         }
 
 
-    }//GEN-LAST:event_jincActionPerformed
+    }//GEN-LAST:event_jbnActionPerformed
 
-    private void jcpiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcpiActionPerformed
+    private void jgtaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jgtaActionPerformed
 
 
         Connection c = null;
@@ -370,7 +370,7 @@ public class Startelection extends javax.swing.JFrame {
                 System.out.println("total = " + votecount);
             }
             int ps = stmt.executeUpdate("update result5 set count=" + votecount + " where id=3;");
-            JOptionPane.showMessageDialog(null, "you are voted to CPI");
+            JOptionPane.showMessageDialog(null, "you are voted to GTA");
             System.exit(0);
 
 
@@ -381,9 +381,9 @@ public class Startelection extends javax.swing.JFrame {
         System.out.println("Operation done successfully");
 
 
-    }//GEN-LAST:event_jcpiActionPerformed
+    }//GEN-LAST:event_jgtaActionPerformed
 
-    private void jbspActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbspActionPerformed
+    private void jpnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jpnActionPerformed
 
 
         Connection c = null;
@@ -404,7 +404,7 @@ public class Startelection extends javax.swing.JFrame {
                 System.out.println("total = " + votecount);
             }
             int ps = stmt.executeUpdate("update result5 set count=" + votecount + " where id=4;");
-            JOptionPane.showMessageDialog(null, "you are voted to BSP");
+            JOptionPane.showMessageDialog(null, "you are voted to PN");
             System.exit(0);
 
 
@@ -415,9 +415,9 @@ public class Startelection extends javax.swing.JFrame {
         System.out.println("Operation done successfully");
 
 
-    }//GEN-LAST:event_jbspActionPerformed
+    }//GEN-LAST:event_jpnActionPerformed
 
-    private void jncpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jncpActionPerformed
+    private void jgpsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jgpsActionPerformed
 
 
         Connection c = null;
@@ -438,7 +438,7 @@ public class Startelection extends javax.swing.JFrame {
                 System.out.println("total = " + votecount);
             }
             int ps = stmt.executeUpdate("update result5 set count=" + votecount + " where id=5;");
-            JOptionPane.showMessageDialog(null, "you are voted to BJP");
+            JOptionPane.showMessageDialog(null, "you are voted to GPS");
             System.exit(0);
 
 
@@ -449,7 +449,7 @@ public class Startelection extends javax.swing.JFrame {
         System.out.println("Operation done successfully");
 
 
-    }//GEN-LAST:event_jncpActionPerformed
+    }//GEN-LAST:event_jgpsActionPerformed
 
     /**
      * @param args the command line arguments
@@ -501,10 +501,10 @@ public class Startelection extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JButton jbjp;
-    private javax.swing.JButton jbsp;
-    private javax.swing.JButton jcpi;
-    private javax.swing.JButton jinc;
-    private javax.swing.JButton jncp;
+    private javax.swing.JButton jph;
+    private javax.swing.JButton jpn;
+    private javax.swing.JButton jgta;
+    private javax.swing.JButton jbn;
+    private javax.swing.JButton jgps;
     // End of variables declaration//GEN-END:variables
 }

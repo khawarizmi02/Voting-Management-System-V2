@@ -16,8 +16,12 @@ name varchar(100),
 fathername varchar(100),
 address varchar(200),
 sex varchar(100),
-age varchar(100)
+age varchar(100),
+donevote integer
 );
+
+alter table addvoter1 alter
+    column donevote set default 0;
 
 
 create table result5(
@@ -26,11 +30,11 @@ partyname varchar(100),
 count int
 );
 
-insert into result5 values (1,'BJP',0);
-insert into result5 values (2,'INC',0);
-insert into result5 values (3,'CPI',0);
-insert into result5 values (4,'BSP',0);
-insert into result5 values (5,'NCP',0);
+insert into result5 values (1,'PH',0);
+insert into result5 values (2,'BN',0);
+insert into result5 values (3,'GTA',0);
+insert into result5 values (4,'PN',0);
+insert into result5 values (5,'GPS',0);
 
 
 
