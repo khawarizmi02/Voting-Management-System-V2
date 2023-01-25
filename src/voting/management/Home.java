@@ -469,12 +469,15 @@ dispose();
                     "postgres", "dbms");
             String sql1;
             String sql2;
+            String sql3;
             sql1 = "truncate partylist1";
             sql2 = "update result5 set count=0 where id >= 1";
+            sql3 ="UPDATE addvoter1 set donevote=0 where donevote >=1";
             Statement ps;
             ps = con.createStatement();
             ps.executeUpdate(sql1);
             ps.executeUpdate(sql2);
+            ps.executeUpdate(sql3);
             JOptionPane.showMessageDialog(null, "Data reset");
 
         } catch (SQLException ex) {
