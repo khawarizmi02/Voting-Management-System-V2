@@ -19,11 +19,11 @@ public class UpdateCandidate extends javax.swing.JFrame {
     public void partysign()
     {
         jupartysign.addItem("");
-        jupartysign.addItem("PH");
-        jupartysign.addItem("BN");
-        jupartysign.addItem("GTA");
-        jupartysign.addItem("PN");
-        jupartysign.addItem("GPS");
+        jupartysign.addItem("Roket");
+        jupartysign.addItem("Dacing");
+        jupartysign.addItem("Jawi");
+        jupartysign.addItem("Bulan");
+        jupartysign.addItem("Enggang");
     }
     public void sexname()
     {

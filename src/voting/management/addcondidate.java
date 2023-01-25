@@ -28,11 +28,11 @@ public class addcondidate extends javax.swing.JFrame {
 public void partysign()
 {
 jpsign.addItem("");
-jpsign.addItem("PH");
-jpsign.addItem("BN");
-jpsign.addItem("GTA");
-jpsign.addItem("PN");
-jpsign.addItem("GPS");
+jpsign.addItem("Roket");
+jpsign.addItem("Dacing");
+jpsign.addItem("Jawi");
+jpsign.addItem("Bulan");
+jpsign.addItem("Enggang");
 }
     public void sexname()
     {
